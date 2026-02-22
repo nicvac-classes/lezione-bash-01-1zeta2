@@ -1,0 +1,266 @@
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ /workspaces/Lezione_Bash01
+bash: /workspaces/Lezione_Bash01: No such file or directory
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ esercizi  README.md  sandbox
+bash: esercizi: command not found
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ ./setup.sh
+🔧 Creazione ambiente di esercitazione...
+
+✅ Ambiente creato con successo!
+
+Struttura creata:
+esercizi
+├── documenti
+│   ├── lettere
+│   │   ├── lettera1.txt
+│   │   └── lettera2.txt
+│   └── report
+│       ├── 2023
+│       │   ├── vendite_q1.txt
+│       │   └── vendite_q2.txt
+│       └── 2024
+│           └── vendite_q1.txt
+├── immagini
+│   ├── lavoro
+│   └── vacanze
+├── permessi
+│   ├── eseguibile.sh
+│   ├── non_eseguibile.sh
+│   ├── privato.txt
+│   ├── pubblico.txt
+│   └── segreto.txt
+└── progetti
+    ├── script
+    │   ├── backup.sh
+    │   └── pulizia.sh
+    └── webapp
+        ├── docs
+        │   └── README.md
+        └── src
+            └── index.js
+
+15 directories, 14 files
+
+✅ Ambiente pronto!
+
+Puoi iniziare gli esercizi!
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ pwd
+/workspaces/lezione-bash-01-1zeta2
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ ls
+README.md  esercizi  report.txt  sandbox  setup.sh
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ cd esercizi
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi (main) $ pwd
+/workspaces/lezione-bash-01-1zeta2/esercizi
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi (main) $ cd documenti
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/documenti (main) $ cd report
+@1zeta2 ➜ .../lezione-bash-01-1zeta2/esercizi/documenti/report (main) $ cd 2024
+@1zeta2 ➜ .../esercizi/documenti/report/2024 (main) $ pwd
+/workspaces/lezione-bash-01-1zeta2/esercizi/documenti/report/2024
+@1zeta2 ➜ .../esercizi/documenti/report/2024 (main) $ ls
+vendite_q1.txt
+@1zeta2 ➜ .../esercizi/documenti/report/2024 (main) $ cd /workspaces/Lezione_Bash01/esercizi/progetti/webapp/src
+bash: cd: /workspaces/Lezione_Bash01/esercizi/progetti/webapp/src: No such file or directory
+@1zeta2 ➜ .../esercizi/documenti/report/2024 (main) $ cd /workspaces/Lezione_Bash01/esercizi/progetti/webapp/src
+bash: cd: /workspaces/Lezione_Bash01/esercizi/progetti/webapp/src: No such file or directory
+@1zeta2 ➜ .../esercizi/documenti/report/2024 (main) $ pwd
+/workspaces/lezione-bash-01-1zeta2/esercizi/documenti/report/2024
+@1zeta2 ➜ .../esercizi/documenti/report/2024 (main) $ cd ../../../..
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ pwd
+/workspaces/lezione-bash-01-1zeta2
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ cd esercizi/documenti/lettere
+@1zeta2 ➜ .../lezione-bash-01-1zeta2/esercizi/documenti/lettere (main) $ cd ../../immagini/vacanze
+@1zeta2 ➜ .../lezione-bash-01-1zeta2/esercizi/immagini/vacanze (main) $ pwd
+/workspaces/lezione-bash-01-1zeta2/esercizi/immagini/vacanze
+@1zeta2 ➜ .../lezione-bash-01-1zeta2/esercizi/immagini/vacanze (main) $ cd ~
+@1zeta2 ➜ ~ $ pwd
+/home/codespace
+@1zeta2 ➜ ~ $ cd -
+/workspaces/lezione-bash-01-1zeta2/esercizi/immagini/vacanze
+@1zeta2 ➜ .../lezione-bash-01-1zeta2/esercizi/immagini/vacanze (main) $ pwd
+/workspaces/lezione-bash-01-1zeta2/esercizi/immagini/vacanze
+@1zeta2 ➜ .../lezione-bash-01-1zeta2/esercizi/immagini/vacanze (main) $ cd /workspaces/Lezione_Bash01/sandbox
+bash: cd: /workspaces/Lezione_Bash01/sandbox: No such file or directory
+@1zeta2 ➜ .../lezione-bash-01-1zeta2/esercizi/immagini/vacanze (main) $ cd /workspaces
+@1zeta2 ➜ /workspaces $ cd /Lezione_Bash01
+bash: cd: /Lezione_Bash01: No such file or directory
+@1zeta2 ➜ /workspaces $ Cd ^C
+@1zeta2 ➜ /workspaces $ cd /Lezione_Bash01
+bash: cd: /Lezione_Bash01: No such file or directory
+@1zeta2 ➜ /workspaces $ cd sandbox
+bash: cd: sandbox: No such file or directory
+@1zeta2 ➜ /workspaces $ cd /sandbox
+bash: cd: /sandbox: No such file or directory
+@1zeta2 ➜ /workspaces $ cd ../../..
+@1zeta2 ➜ / $ cd sandbox
+bash: cd: sandbox: No such file or directory
+@1zeta2 ➜ / $ cd sandbox
+bash: cd: sandbox: No such file or directory
+@1zeta2 ➜ / $ cd /sandbox
+bash: cd: /sandbox: No such file or directory
+@1zeta2 ➜ / $ cd ../../../sandbox
+bash: cd: ../../../sandbox: No such file or directory
+@1zeta2 ➜ / $ pwd
+/
+@1zeta2 ➜ / $ ls
+bin                boot  etc  home  lib.usr-is-merged  lib64  mnt  proc  run   sbin.usr-is-merged  sys  usr  vscode
+bin.usr-is-merged  dev   go   lib   lib32              media  opt  root  sbin  srv                 tmp  var  workspaces
+@1zeta2 ➜ / $ cd ../../../
+@1zeta2 ➜ / $ ls
+bin                boot  etc  home  lib.usr-is-merged  lib64  mnt  proc  run   sbin.usr-is-merged  sys  usr  vscode
+bin.usr-is-merged  dev   go   lib   lib32              media  opt  root  sbin  srv                 tmp  var  workspaces
+@1zeta2 ➜ / $ cd workspaces
+@1zeta2 ➜ /workspaces $ ls
+lezione-bash-01-1zeta2
+@1zeta2 ➜ /workspaces $ cd /workspaces/lezione-bash-01-1zeta2
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ ls
+README.md  esercizi  report.txt  sandbox  setup.sh
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ cd sandbox
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ mkdir test
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ ls
+test
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ cd test
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox/test (main) $ mkdir alfa beta gamma
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox/test (main) $ ls
+alfa  beta  gamma
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox/test (main) $ cd ..
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ pwd
+/workspaces/lezione-bash-01-1zeta2/sandbox
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ mkdir livello1/livello2/livello3
+mkdir: cannot create directory ‘livello1/livello2/livello3’: No such file or directory
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ mkdir -p livello1/livello2/livello3
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ tree livello1
+livello1
+└── livello2
+    └── livello3
+
+3 directories, 0 files
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ mkdir -p archivio/{2022,2023,2024}/{entrate.uscite}
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ tree archivio
+archivio
+├── 2022
+│   └── {entrate.uscite}
+├── 2023
+│   └── {entrate.uscite}
+└── 2024
+    └── {entrate.uscite}
+
+7 directories, 0 files
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ cd test
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox/test (main) $ rmdir alfa
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox/test (main) $ ls
+beta  gamma
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox/test (main) $ cd ..
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ rmdir livello1
+rmdir: failed to remove 'livello1': Directory not empty
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ rm -r livello1
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ rm -r archivio
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ rm -r test
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ ls
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ cd ../esercizi
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi (main) $ ls
+documenti  immagini  permessi  progetti
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi (main) $ ls -1
+documenti
+immagini
+permessi
+progetti
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi (main) $ cd ~
+@1zeta2 ➜ ~ $ ls
+java  nvm
+@1zeta2 ➜ ~ $ ls -a
+.   .bash_logout  .cache  .config  .dotnet     .hugo     .local  .minikube  .oh-my-zsh  .profile  .rbenv  .rvmrc          .zprofile  java
+..  .bashrc       .conda  .docker  .gitconfig  .jupyter  .maven  .nvs       .php        .python   .ruby   .vscode-remote  .zshrc     nvm
+@1zeta2 ➜ ~ $ ls -l /workspaces/lezione-bash-01-1zeta2/esercizi/permessi
+total 20
+-rwxr-xr-x 1 codespace codespace 36 Feb 22 19:05 eseguibile.sh
+-rw-r--r-- 1 codespace codespace 41 Feb 22 19:05 non_eseguibile.sh
+-rw------- 1 codespace codespace 36 Feb 22 19:05 privato.txt
+-rw-r--r-- 1 codespace codespace 38 Feb 22 19:05 pubblico.txt
+---------- 1 codespace codespace 48 Feb 22 19:05 segreto.txt
+@1zeta2 ➜ ~ $ cd /workspaces/lezione-bash-01-1zeta2/esercizi/permessi
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ ls -l
+total 20
+-rwxr-xr-x 1 codespace codespace 36 Feb 22 19:05 eseguibile.sh
+-rw-r--r-- 1 codespace codespace 41 Feb 22 19:05 non_eseguibile.sh
+-rw------- 1 codespace codespace 36 Feb 22 19:05 privato.txt
+-rw-r--r-- 1 codespace codespace 38 Feb 22 19:05 pubblico.txt
+---------- 1 codespace codespace 48 Feb 22 19:05 segreto.txt
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ cat pubblico.txt
+File pubblico - tutti possono leggere
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ cat privato.txt
+File privato - solo il proprietario
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ cat segreto.txt
+cat: segreto.txt: Permission denied
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ ./eseuibile.sh
+bash: ./eseuibile.sh: No such file or directory
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ ./eseguibile.sh
+Sono eseguibile!
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ ./non_eseguibile.sh
+bash: ./non_eseguibile.sh: Permission denied
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ ./non_eseguibile.sh
+bash: ./non_eseguibile.sh: Permission denied
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ ls -l ..
+total 16
+drwxrwxrwx+ 4 codespace codespace 4096 Feb 22 19:05 documenti
+drwxrwxrwx+ 4 codespace codespace 4096 Feb 22 19:05 immagini
+drwxrwxrwx+ 2 codespace codespace 4096 Feb 22 19:05 permessi
+drwxrwxrwx+ 4 codespace codespace 4096 Feb 22 19:05 progetti
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ cat segreto.txt
+cat: segreto.txt: Permission denied
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ chmod u+r segreto.txt
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ cat segreto.txt
+File segreto - solo lettura per il proprietario
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ chmod u+x non_eseguibile.sh
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ ./non_eseguibile.sh
+Script non eseguibile
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ ls -l non_eseguibile.sh
+-rwxr--r-- 1 codespace codespace 41 Feb 22 19:05 non_eseguibile.sh
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/esercizi/permessi (main) $ cd ../../sandbox
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ echo '#!/bin/bash
+> echo "Ciao, sono uno script!"' > saluta.sh
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ ./saluta.sh
+bash: ./saluta.sh: Permission denied
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ chmod +x saluta.sh
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ ./saluta.sh
+Ciao, sono uno script!
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ mkdir -p azienda/{amministrazione/{fatture,contratti},sviluppo/{frontend,backend},risorse_umane/{assunzioni,stipendi}}
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ tree azienda
+azienda
+├── amministrazione
+│   ├── contratti
+│   └── fatture
+├── risorse_umane
+│   ├── assunzioni
+│   └── stipendi
+└── sviluppo
+    ├── backend
+    └── frontend
+
+10 directories, 0 files
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ rm -r azienda
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ ls -l ../esercizi/permessi
+total 20
+-rwxr-xr-x 1 codespace codespace 36 Feb 22 19:05 eseguibile.sh
+-rwxr--r-- 1 codespace codespace 41 Feb 22 19:05 non_eseguibile.sh
+-rw------- 1 codespace codespace 36 Feb 22 19:05 privato.txt
+-rw-r--r-- 1 codespace codespace 38 Feb 22 19:05 pubblico.txt
+-r-------- 1 codespace codespace 48 Feb 22 19:05 segreto.txt
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ cat << 'EOF' > segreto.sh
+> #!/bin/bash
+> echo "Hai scoperto il segreto!"
+> EOF
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ chmod u=rwx,go= segreto.sh
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ ./segreto.sh
+Hai scoperto il segreto!
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ ls -l segreto.sh
+-rwx------ 1 codespace codespace 47 Feb 22 19:21 segreto.sh
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2/sandbox (main) $ cd /workspaces
+@1zeta2 ➜ /workspaces $ ls
+lezione-bash-01-1zeta2
+@1zeta2 ➜ /workspaces $ cd lezione-bash-01-1zeta2
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ pdw
+bash: pdw: command not found
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ pwd
+/workspaces/lezione-bash-01-1zeta2
+@1zeta2 ➜ /workspaces/lezione-bash-01-1zeta2 (main) $ 
